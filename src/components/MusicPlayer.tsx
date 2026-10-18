@@ -173,29 +173,29 @@ export function MusicPlayer() {
         type="button"
         onClick={() => setOpen((v) => !v)}
         aria-expanded={open}
-        className={`flex items-center gap-2 cursor-pointer rounded-full border px-4 py-2.5 font-mono text-[11px] font-semibold transition-all duration-200 ${
+        className={`flex items-center gap-2.5 cursor-pointer rounded-xl border-2 px-5 py-3 font-mono text-sm tracking-widest uppercase font-bold transition-all duration-200 ${
           open || playing
-            ? "border-emerald-500/60 bg-emerald-500/10 text-emerald-400"
-            : "border-[var(--line)] bg-[var(--card)] text-[var(--muted)] hover:text-[var(--fg)]"
+            ? "border-emerald-500 bg-emerald-600/20 text-emerald-300 hover:bg-emerald-600/30 hover:-translate-y-0.5"
+            : "border-[var(--fg)] bg-[var(--fg)] text-[var(--bg)] hover:-translate-y-0.5 hover:shadow-lg hover:shadow-black/40 hover:bg-[var(--bg)] hover:border-[var(--fg)] hover:text-[var(--fg)]"
         }`}
       >
         {open ? (
-          <ChevronDown className="size-4" />
+          <ChevronDown className="size-5" />
         ) : playing ? (
-          <span className="flex h-4 items-end gap-0.5">
+          <span className="flex h-5 items-end gap-1">
             {[0, 1, 2].map((bar) => (
               <span
                 key={bar}
-                className="w-0.5 animate-pulse rounded-full bg-emerald-400"
+                className="w-1 animate-pulse rounded-full bg-emerald-400"
                 style={{
-                  height: `${6 + (bar % 2) * 4}px`,
+                  height: `${8 + (bar % 2) * 5}px`,
                   animationDelay: `${bar * 150}ms`,
                 }}
               />
             ))}
           </span>
         ) : (
-          <Music className="size-3.5" />
+          <Music className="size-5" />
         )}
         {open ? "Close" : "Play Song"}
       </button>
