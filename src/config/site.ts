@@ -314,6 +314,24 @@ projects: [
     {
       spotify: "https://open.spotify.com/track/0DTSnA1bcVI5niJzoyBPyZ",
     },
+    {
+      spotify: "https://open.spotify.com/track/22NHkFYbgxB2Zirj29Gbp8",
+    },
+    {
+      spotify: "https://open.spotify.com/track/0eAuGrXyGFYwur9ARUe7LJ",
+    },
+    {
+      spotify: "https://open.spotify.com/track/1XrSjpNe49IiygZfzb74pk",
+    },
+    {
+      spotify: "https://open.spotify.com/track/3sK8wGT43QFpWrvNQsrQya",
+    },
+    {
+      spotify: "https://open.spotify.com/track/3KkXRkHbMCARz0aVfEt68P",
+    },
+    {
+      spotify: "https://open.spotify.com/track/6Ec5LeRzkisa5KJtwLfOoW",
+    },
   ] as Song[],
 
   // =========================================================

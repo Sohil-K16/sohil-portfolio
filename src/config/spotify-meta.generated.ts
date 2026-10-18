@@ -14,7 +14,49 @@ export const spotifyMeta: SpotifyMeta[] = [
     "spotify": "https://open.spotify.com/track/0DTSnA1bcVI5niJzoyBPyZ",
     "title": "Past Won't Leave My Bed",
     "artist": "Joji",
-    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2736d1b6480d52882757919c972",
+    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736d1b6480d52882757919c972",
     "audio": "https://p.scdn.co/mp3-preview/76c79b7b7a204a406c80d4feb06d9d326855c920"
+  },
+  {
+    "spotify": "https://open.spotify.com/track/22NHkFYbgxB2Zirj29Gbp8",
+    "title": "oh yeah?",
+    "artist": "Steve Lacy",
+    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2734ea9ba86cd9506a004bab042",
+    "audio": "https://p.scdn.co/mp3-preview/72b6457625435b7f64c345e86930e5f0071c559c"
+  },
+  {
+    "spotify": "https://open.spotify.com/track/0eAuGrXyGFYwur9ARUe7LJ",
+    "title": "Earrings",
+    "artist": "Malcolm Todd",
+    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2732c1f34ecc1929fb59908aad1",
+    "audio": "https://p.scdn.co/mp3-preview/20a1469df9f65a51878811bbe49979c418abc1b7"
+  },
+  {
+    "spotify": "https://open.spotify.com/track/1XrSjpNe49IiygZfzb74pk",
+    "title": "What Once Was",
+    "artist": "Her's",
+    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273fc1bc1cf80c431c2bdbde601",
+    "audio": "https://p.scdn.co/mp3-preview/22a45e7c38a60917bfd0df1e9946ce52cdeb1d40"
+  },
+  {
+    "spotify": "https://open.spotify.com/track/3sK8wGT43QFpWrvNQsrQya",
+    "title": "DtMF",
+    "artist": "Bad Bunny",
+    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273bbd45c8d36e0e045ef640411",
+    "audio": "https://p.scdn.co/mp3-preview/e41ce6b82410d81c08baacca2a7169e5ace4287d"
+  },
+  {
+    "spotify": "https://open.spotify.com/track/3KkXRkHbMCARz0aVfEt68P",
+    "title": "Sunflower - Spider-Man: Into the Spider-Verse",
+    "artist": "Post Malone & Swae Lee",
+    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273e2e352d89826aef6dbd5ff8f",
+    "audio": "https://p.scdn.co/mp3-preview/801a664529525b366fa6fb8f6cacd5dd83928272"
+  },
+  {
+    "spotify": "https://open.spotify.com/track/6Ec5LeRzkisa5KJtwLfOoW",
+    "title": "Am I Dreaming (Metro Boomin & A$AP Rocky, Roisee)",
+    "artist": "Metro Boomin, A$AP Rocky & Roisee",
+    "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2736ed9aef791159496b286179f",
+    "audio": "https://p.scdn.co/mp3-preview/3797cc439191de6c43be0aa5c6e1aa9479194e3a"
   }
 ];
