@@ -36,6 +36,7 @@ import { Analytics } from "@vercel/analytics/react";
 import CursorGuide from "./components/CursorGuide";
 import Preloader from "./components/Preloader";
 import BottomBlur from "./components/BottomBlur";
+import MusicPlayer from "./components/MusicPlayer";
 
 const VALID_ROUTES = [
   "/",
@@ -212,6 +213,8 @@ function AppContent() {
       </main>
 
       {!is404 && !isStandaloneExperiment && <Footer />}
+
+      {!is404 && !isStandaloneExperiment && <MusicPlayer />}
 
       {!is404 && !isStandaloneExperiment && (
         <CommandPalette

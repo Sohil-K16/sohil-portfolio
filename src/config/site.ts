@@ -12,6 +12,12 @@ export type Project = {
   categories?: ("Frontend" | "Backend" | "Fullstack")[];
 };
 
+export type Song = {
+  title: string;
+  artist: string;
+  src: string; // "" = entry needs a real song; skipped in the player
+};
+
 export type Job = {
   company: string;
   role: string;
@@ -297,6 +303,31 @@ projects: [
 
     contributionsLastYear: "",
   },
+
+  // =========================================================
+  // SONGS
+  // =========================================================
+  // Drop mp3 files into `public/songs/` and add an entry here.
+  // `src` must start with "/" for local files, or be a full URL.
+  // =========================================================
+
+  songs: [
+    {
+      title: "Add Your Song 1",
+      artist: "Add me in src/config/site.ts",
+      src: "",
+    },
+    {
+      title: "Add Your Song 2",
+      artist: "Add me in src/config/site.ts",
+      src: "",
+    },
+    {
+      title: "Add Your Song 3",
+      artist: "Add me in src/config/site.ts",
+      src: "",
+    },
+  ] as Song[],
 
   // =========================================================
   // FOOTER
