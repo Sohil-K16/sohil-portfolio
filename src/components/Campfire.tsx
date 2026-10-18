@@ -23,7 +23,7 @@ export function Campfire() {
     }
   };
   return (
-    <div className="fixed bottom-[5.5rem] left-2 z-40 hidden justify-center xl:flex">
+    <div className="absolute left-full top-10 z-40 ml-4 hidden justify-center xl:flex">
       <button
         type="button"
         aria-label={burning ? "Extinguish campfire" : "Light campfire"}

@@ -36,8 +36,6 @@ import { Analytics } from "@vercel/analytics/react";
 import CursorGuide from "./components/CursorGuide";
 import Preloader from "./components/Preloader";
 import BottomBlur from "./components/BottomBlur";
-import Campfire from "./components/Campfire";
-import Lightsaber from "./components/Lightsaber";
 
 const VALID_ROUTES = [
   "/",
@@ -220,13 +218,6 @@ function AppContent() {
           open={paletteOpen}
           onClose={() => setPaletteOpen(false)}
         />
-      )}
-
-      {!is404 && !isStandaloneExperiment && (
-        <>
-          <Campfire />
-          <Lightsaber />
-        </>
       )}
     </div>
   );

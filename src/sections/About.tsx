@@ -1,12 +1,14 @@
 import { motion } from "framer-motion";
 import { Shell, SectionHeader } from "@/components/Layout";
 import { site } from "@/config/site";
+import Campfire from "@/components/Campfire";
 
 export function About() {
   return (
     <div id="about">
       <SectionHeader title="About" />
       <Shell className="px-6 py-7 sm:px-8 space-y-4">
+        <Campfire />
         {site.about.map((para, i) => (
           <motion.div
             key={i}

@@ -26,7 +26,7 @@ export function Lightsaber() {
   };
 
   return (
-    <div className="fixed bottom-[5.5rem] right-2 z-40 hidden justify-center px-6 py-6 xl:flex">
+    <div className="absolute right-full top-10 z-40 mr-4 hidden justify-center px-6 py-6 xl:flex">
       <button
         type="button"
         aria-label="Toggle lightsaber"

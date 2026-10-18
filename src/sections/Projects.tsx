@@ -12,6 +12,7 @@ import {
 } from "lucide-react";
 import { GitHubIcon } from "@/components/icons";
 import { useNavigate } from "react-router-dom";
+import Lightsaber from "@/components/Lightsaber";
 
 export function Projects({
   isSearchable = false,
@@ -123,6 +124,7 @@ const displayedProjects = useMemo(() => {
         />
 
         <Shell className="px-6 py-6 sm:px-8">
+          <Lightsaber />
           {/* Search Bar */}
           {isSearchable && (
             <div className="mb-6 flex flex-col gap-4 border-b border-[var(--line)] pb-5 sm:flex-row sm:items-center sm:justify-between">
