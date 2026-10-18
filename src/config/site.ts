@@ -13,9 +13,7 @@ export type Project = {
 };
 
 export type Song = {
-  title: string;
-  artist: string;
-  src: string; // "" = entry needs a real song; skipped in the player
+  spotify: string; // open.spotify.com/track/... URL
 };
 
 export type Job = {
@@ -305,27 +303,16 @@ projects: [
   },
 
   // =========================================================
-  // SONGS
+  // SONGS (Spotify)
   // =========================================================
-  // Drop mp3 files into `public/songs/` and add an entry here.
-  // `src` must start with "/" for local files, or be a full URL.
+  // Add open.spotify.com/track/... URLs here — one per playlist row.
+  // Then run `npm run songs:sync` so the player can bake in the
+  // title, artist, cover art and 30s preview.
   // =========================================================
 
   songs: [
     {
-      title: "Add Your Song 1",
-      artist: "Add me in src/config/site.ts",
-      src: "",
-    },
-    {
-      title: "Add Your Song 2",
-      artist: "Add me in src/config/site.ts",
-      src: "",
-    },
-    {
-      title: "Add Your Song 3",
-      artist: "Add me in src/config/site.ts",
-      src: "",
+      spotify: "https://open.spotify.com/track/0DTSnA1bcVI5niJzoyBPyZ",
     },
   ] as Song[],
 
